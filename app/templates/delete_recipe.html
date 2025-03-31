@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delete Recipe</title>
+</head>
+<body>
+    <h1>Delete Recipe</h1>
+    <p>Are you sure you want to delete the recipe "{{ recipe.title }}"?</p>
+    
+    <form method="POST" action="{{ url_for('delete_recipe', id=recipe.id) }}">
+        <button type="submit">Confirm Delete</button>
+    </form>
+    
+    <a href="{{ url_for('recipe', id=recipe.id) }}">Cancel</a>
+</body>
+</html>
