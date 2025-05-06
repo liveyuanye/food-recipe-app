@@ -1,19 +1,21 @@
-# cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-#virtual env
+# Virtual Environment
 venv/
-.venv/
-ENV/
+*.venv
 env/
-env.bak/
-venv.bak/
-
 .env
 
-#SQL
-*.sqlite
-*.sqlite3
-*.db
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System generated files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Other common cache/build directories (add if relevant to your project)
+.cache/
+build/
+dist/
+*.egg-info/
