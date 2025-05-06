@@ -24,7 +24,7 @@ Activate the virtual environment Windows (cmd / PowerShell):
 $ .\venv\Scripts\activate
 ```
 
-Install the necessary libraries from [Technologies](#technologies) using:
+Install the necessary libraries from requirements using:
 ```
 $ pip install -r requirements.txt
 ```
