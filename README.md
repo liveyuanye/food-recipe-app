@@ -5,10 +5,10 @@ This application is a recipe database website. Authorized users can create, dele
 	
 ## Technologies
 This project is created with:
-Flask==3.0.3
-Flask-SQLAlchemy==3.1.1
-Flask-WTF==1.2.1
-Flask-Login==0.6.3
+# Flask==3.0.3
+# Flask-SQLAlchemy==3.1.1
+# Flask-WTF==1.2.1
+# Flask-Login==0.6.3
 
 SQLAlchemy==2.0.40
 WTForms==3.2.1
