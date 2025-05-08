@@ -19,9 +19,9 @@ This project is created with:
 	
 ## Setup
 ···
-git clone https://github.com/liveyuanye/food-recipe-app.git
+$ git clone https://github.com/liveyuanye/food-recipe-app.git
 ···
-cd food-recipe-app
+$ cd food-recipe-app
 ···
 To run this project, create a virtual evironment:
 ```
