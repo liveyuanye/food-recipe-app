@@ -17,30 +17,47 @@ This project is created with:
 * click==8.1.8
 
 	
-## Setup
-···
-$ git clone https://github.com/liveyuanye/food-recipe-app.git
-···
-$ cd food-recipe-app
-···
-To run this project, create a virtual evironment:
+## ✅ Setup
+
+Clone the repository:
+
 ```
-$ python3 -m venv venv
-```
-Activate the virtual environment macOS / Linux:
-```
-$ source venv/bin/activate
-```
-Activate the virtual environment Windows (cmd / PowerShell):
-```
-$ .\venv\Scripts\activate
+git clone https://github.com/liveyuanye/food-recipe-app.git
 ```
 
-Install the necessary libraries from requirements using:
+Navigate into the project directory:
+
 ```
-$ pip install -r requirements.txt
+cd food-recipe-app
 ```
-Then run the application using:
+
+Create a virtual environment:
+
 ```
-$ flask run
+python3 -m venv venv
 ```
+
+Activate the virtual environment (macOS / Linux):
+
+```
+source venv/bin/activate
+```
+
+Activate the virtual environment (Windows cmd / PowerShell):
+
+```
+.\venv\Scripts\activate
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```
+flask run
+```
+
