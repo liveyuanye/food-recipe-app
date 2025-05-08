@@ -18,6 +18,11 @@ This project is created with:
 
 	
 ## Setup
+···
+git clone https://github.com/liveyuanye/food-recipe-app.git
+···
+cd food-recipe-app
+···
 To run this project, create a virtual evironment:
 ```
 $ python3 -m venv venv
