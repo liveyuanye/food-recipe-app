@@ -5,10 +5,18 @@ This application is a recipe database website. Authorized users can create, dele
 	
 ## Technologies
 This project is created with:
-* Flask version: 2.0.1
-* Flask-SQLAlchemy version: 2.5.1
-* Flask-WTF version: 0.15.1
-* Flask-Login version: 0.5.0
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.1
+Flask-Login==0.6.3
+
+SQLAlchemy==2.0.40
+WTForms==3.2.1
+Jinja2==3.1.6
+Werkzeug==3.1.3
+itsdangerous==2.2.0
+click==8.1.8
+
 	
 ## Setup
 To run this project, create a virtual evironment:
